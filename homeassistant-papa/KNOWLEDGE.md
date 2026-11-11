@@ -11,10 +11,16 @@ description: Daniels Projekt „Home Assistant Papa" – Papas eigene HA-Instanz
 2. **Jungfräuliche Einrichtung:** Papas Instanz wird komplett neu eingerichtet – ausdrücklich NICHT Daniels Backup einspielen.
 3. **Nuntius/HA-Fehler-Assistent sollen Papas System später mitverwalten:** Daniel will auf einen Blick sehen, von welchem HA-System ein Tages-/Wochenbericht stammt. Seit Nuntius v5.1 gibt es System-Chips dafür; Papas System bekommt bei Anlegung einen eigenen SYSTEME-Eintrag + eigene CSS-Farbe (Salbeigrün bleibt allein Daniels System vorbehalten).
 
+## Projektziele (11.11.2026, Daniel)
+- **Green an Papa übergeben und dort einrichten – so einfach wie möglich.**
+- **Simon42-Dashboard** soll darauf (Vibe Code richtet es gemeinsam mit Daniel ein).
+- **Zugriffskonzept langfristig:** Papa bekommt einen eigenen Vibe-Account für den Zugriff auf seine Instanz; Daniel greift für technischen Support über Papas **Nabu-Casa-Cloud** (Remote UI) mit seinem Vibe-Account zu.
+- **Alles soll so gut wie möglich VORBEREITET sein, bevor Daniel zu Papa fährt.
+
 ## Offene Punkte
 - Konkrete Wünsche aus früheren Chats (Geräte, Automatisierungen, Rollos/Lampen etc.) sind noch nirgends dokumentiert – mit Daniel aufnehmen.
-- Technische Anbindung: MCP-Server-Integration in Papas HA + eigener Connector in Vibe (Muster siehe ha-project-context-Skill, „Fremde Instanz"). Fernzugriff: Nabu Casa oder Tunnel – offen.
-- Zeitpunkt: erst nach abgeschlossenem HA-Umzug auf den M70q (Green wird erst freigegeben, wenn alles auf dem Mini-PC reagiert).
+- Technische Anbindung: MCP-Server-Integration in Papas HA + eigener Connector in Vibe (Muster siehe ha-project-context-Skill, „Fremde Instanz"). Fernzugriff: Nabu Casa – geklärt, siehe Projektziele.
+- Zeitpunkt: Green ist daheim vorhanden (aus, alte Daten noch drauf); Einrichtung bei Papa nach Vorbereitung.
 
 ## Pflege
 Vibe Work aktualisiert diese Datei nach jeder Arbeitssession und pusht den Stand hierher (per GitHub-Connector). Keine Secrets in dieses Repo.
